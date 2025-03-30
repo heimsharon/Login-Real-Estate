@@ -1,0 +1,10 @@
+// filepath: s:\Login Real Estate\Server\tsconfig.json
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
